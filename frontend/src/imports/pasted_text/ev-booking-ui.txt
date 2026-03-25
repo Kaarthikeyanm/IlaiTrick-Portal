@@ -1,0 +1,189 @@
+Create a modern, responsive frontend UI for an "E-Vehicle Charging Port Booking System" using HTML, CSS, and Bootstrap 5.
+
+The design should be clean, professional, and mobile-friendly with a green/blue eco-tech theme.
+
+-----------------------------
+GENERAL DESIGN
+-----------------------------
+- Use Bootstrap 5
+- Use icons (Font Awesome)
+- Responsive for mobile, tablet, desktop
+- Smooth hover effects
+- Cards and shadows for sections
+- Navbar fixed at top
+- Footer with contact info
+
+-----------------------------
+PAGES REQUIRED
+-----------------------------
+
+1. HOME PAGE
+- Navbar:
+  - Logo (EV Charge)
+  - Home
+  - Stations
+  - My Bookings
+  - Login/Register button
+
+- Hero Section:
+  - Background image of electric vehicle charging
+  - Heading: "Find & Book EV Charging Stations Easily"
+  - Search bar:
+    - Enter location
+    - Search button
+
+- Nearby Stations Section:
+  - Display cards:
+    - Station name
+    - Location
+    - Available ports
+    - Price per hour
+    - "View Details" button
+
+- Features Section:
+  - Fast Charging
+  - Easy Booking
+  - Secure Payment
+
+- Footer:
+  - Contact info
+  - Social links
+
+-----------------------------
+
+2. LOGIN / REGISTER PAGE
+- Split screen layout
+- Left side image (EV charging)
+- Right side form
+
+Login Form:
+- Email / Phone
+- Password
+- Login button
+- "Don't have account? Register"
+
+Register Form:
+- Name
+- Phone
+- Email
+- Password
+- Confirm Password
+- Register button
+
+-----------------------------
+
+3. STATION LIST PAGE
+- Grid layout of stations
+- Filters:
+  - Location
+  - Price range
+  - Available ports
+
+Each card:
+- Station name
+- Address
+- Ports available
+- Price
+- "View Details"
+
+-----------------------------
+
+4. STATION DETAILS PAGE
+- Station info:
+  - Name
+  - Location (map placeholder)
+  - Total ports
+  - Available ports
+  - Price
+
+- Time Slot Booking Section:
+  - Date picker
+  - Time slots (buttons like 10-11, 11-12)
+  - Available slots in green
+  - Full slots in red (disabled)
+
+- Book Now button
+
+-----------------------------
+
+5. BOOKING PAGE
+- Show selected:
+  - Station name
+  - Date
+  - Time
+
+- User details form:
+  - Name
+  - Phone
+
+- Confirm Booking button
+
+-----------------------------
+
+6. PAYMENT PAGE
+- Show booking summary
+- Payment method options:
+  - Card
+  - UPI
+
+- Pay Now button
+
+-----------------------------
+
+7. MY BOOKINGS PAGE
+- Table or cards:
+  - Station name
+  - Date
+  - Time
+  - Status (Booked / Completed / Cancelled)
+
+- Cancel button
+
+-----------------------------
+
+8. ADMIN DASHBOARD UI
+- Sidebar:
+  - Dashboard
+  - Manage Stations
+  - Bookings
+  - Users
+
+- Dashboard cards:
+  - Total users
+  - Total bookings
+  - Revenue
+
+- Manage Stations Page:
+  - Table with:
+    - Name
+    - Location
+    - Ports
+    - Edit/Delete buttons
+
+-----------------------------
+
+STYLE REQUIREMENTS
+-----------------------------
+- Primary color: Green (#28a745) or Blue (#007bff)
+- Rounded buttons
+- Card shadows
+- Clean typography
+- Use spacing (padding/margin)
+
+-----------------------------
+
+EXTRA UI FEATURES
+-----------------------------
+- Loading spinner
+- Toast notifications (Booking success)
+- Modal popup for confirmation
+- Hover animations
+
+-----------------------------
+
+OUTPUT FORMAT
+-----------------------------
+- Provide separate HTML files for each page
+- Include CSS inside style.css
+- Use Bootstrap CDN
+- Use clean and well-structured code
