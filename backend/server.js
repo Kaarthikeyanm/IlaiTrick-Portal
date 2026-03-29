@@ -15,6 +15,7 @@ app.use(cors({
 }));
 app.use(express.json({ limit: '50mb' }));
 app.use(express.urlencoded({ limit: '50mb', extended: true }));
+
 // Routes
 app.use('/api/auth', require('./routes/authRoutes'));
 app.use('/api/stations', require('./routes/stationRoutes'));
@@ -22,7 +23,7 @@ app.use('/api/bookings', require('./routes/bookingRoutes'));
 app.use('/api/admin', require('./routes/adminRoutes'));
 
 // Serve Frontend in Production
-if (process.env.NODE_ENV === 'production' || true) { // Defaulting to true for easier project handover
+if (!process.env.VERCEL && (process.env.NODE_ENV === 'production' || true)) { // Defaulting to true for easier project handover
     const frontendPath = path.join(__dirname, '../frontend/dist');
     app.use(express.static(frontendPath));
 
